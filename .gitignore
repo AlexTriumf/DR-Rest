@@ -386,3 +386,4 @@ FodyWeavers.xsd
 # JetBrains Rider
 .idea/
 *.sln.iml
+DR-Rest/obj/Debug/net5.0/DR-Rest.assets.cache
