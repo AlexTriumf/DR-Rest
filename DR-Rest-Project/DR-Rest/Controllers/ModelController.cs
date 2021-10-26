@@ -13,8 +13,14 @@ namespace DR_Rest.Controllers
     [ApiController]
     public class ModelController : ControllerBase
     {
-        private readonly IManager mgr = new Manager();
+        private readonly IManager mgr;
 
+        public ModelController(ModelContext context)
+        {
+
+            mgr = new ManagerDB(context);
+
+        }
         // GET: api/<ItemController>
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
