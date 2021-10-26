@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\trium\\source\\repos\\DR-Rest\\DR-Rest\\DR-Rest.csproj": {}
+    "C:\\Users\\trium\\Documents\\GitHub\\DR-Rest\\DR-Rest\\DR-Rest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\trium\\source\\repos\\DR-Rest\\DR-Rest\\DR-Rest.csproj": {
+    "C:\\Users\\trium\\Documents\\GitHub\\DR-Rest\\DR-Rest\\DR-Rest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\trium\\source\\repos\\DR-Rest\\DR-Rest\\DR-Rest.csproj",
+        "projectUniqueName": "C:\\Users\\trium\\Documents\\GitHub\\DR-Rest\\DR-Rest\\DR-Rest.csproj",
         "projectName": "DR-Rest",
-        "projectPath": "C:\\Users\\trium\\source\\repos\\DR-Rest\\DR-Rest\\DR-Rest.csproj",
+        "projectPath": "C:\\Users\\trium\\Documents\\GitHub\\DR-Rest\\DR-Rest\\DR-Rest.csproj",
         "packagesPath": "C:\\Users\\trium\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\trium\\source\\repos\\DR-Rest\\DR-Rest\\obj\\",
+        "outputPath": "C:\\Users\\trium\\Documents\\GitHub\\DR-Rest\\DR-Rest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -31,7 +31,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\trium\\Documents\\GitHub\\DR-Rest\\Model\\ModelLib.csproj": {
+                "projectPath": "C:\\Users\\trium\\Documents\\GitHub\\DR-Rest\\Model\\ModelLib.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -63,6 +67,64 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\trium\\Documents\\GitHub\\DR-Rest\\Model\\ModelLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\trium\\Documents\\GitHub\\DR-Rest\\Model\\ModelLib.csproj",
+        "projectName": "ModelLib",
+        "projectPath": "C:\\Users\\trium\\Documents\\GitHub\\DR-Rest\\Model\\ModelLib.csproj",
+        "packagesPath": "C:\\Users\\trium\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\trium\\Documents\\GitHub\\DR-Rest\\Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\trium\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
