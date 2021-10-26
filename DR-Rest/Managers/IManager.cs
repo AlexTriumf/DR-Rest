@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
 using ModelLib;
 
-namespace DR_Rest.Manager
+namespace DR_Rest.Managers
 {
     interface IManager
     {
@@ -13,9 +13,9 @@ namespace DR_Rest.Manager
 
         Model Get(int id);
 
-        IEnumerable<Model> GetfromSubstring(string s);
+        IEnumerable<Model> GetFromSubstring(string s);
 
-        IEnumerable<Model> GetWithFilther(FilterItem filter);
+        IEnumerable<Model> GetWithFilter(FilterItem filter);
 
         bool Create(Model value);
 
