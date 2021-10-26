@@ -16,6 +16,7 @@ namespace DR_Rest.Managers
         }
         public bool Create(Model value)
         {
+            //hej
             _data.Add(value);
             return true;
         }
