@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace Model
+namespace ModelLib
 {
     public class Model
     {
-
+        private int _id;
         private string _artist;
         private string _title;
         private int _duration;
@@ -13,8 +13,9 @@ namespace Model
         public Model()
         {}
 
-        public Model(string artist, string title, int duration, int publicYear)
+        public Model(int id,string artist, string title, int duration, int publicYear)
         {
+            _id = id;
             _artist = artist;
             _title = title;
             _duration = duration;
@@ -24,6 +25,12 @@ namespace Model
         public override string ToString()
         {
             return $"{nameof(_artist)}: {_artist}, {nameof(_title)}: {_title}, {nameof(_duration)}: {_duration}, {nameof(_publicYear)}: {_publicYear}";
+        }
+
+        public int Id
+        {
+            get => _id;
+            set => _id = value;
         }
 
         public string Artist

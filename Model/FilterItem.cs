@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ModelLib
 {
-    class FilterItem
+    public class FilterItem
     {
+        public int LowYear { get; set; }
+
+        public int HighYear { get; set; }
     }
 }
