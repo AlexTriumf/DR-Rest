@@ -387,3 +387,6 @@ FodyWeavers.xsd
 .idea/
 *.sln.iml
 DR-Rest/obj/Debug/net5.0/DR-Rest.assets.cache
+*.cache
+*.props
+*.editorconfig
