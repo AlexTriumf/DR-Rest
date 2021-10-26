@@ -66,6 +66,7 @@ namespace DR_Rest.Manager
         public bool Update(int id, Model value)
         {
             return true;
+            //hej
         }
     }
 }
